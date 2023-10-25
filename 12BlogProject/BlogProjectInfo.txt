@@ -1,0 +1,20 @@
+**This are used to build the project
+npm i @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce-react html-react-parser react-hook-form
+
+**For using the appwrite we have use this import.meta.env.VITE_APPWRITE_URL
+
+**Appwrite credentials
+VITE_APPWRITE_URL="https://cloud.appwrite.io/v1" //appwrite endpoint id
+VITE_APPWRITE_PROJECT_ID="652cd4c8ef24d9e5d987" //project id
+VITE_APPWRITE_DATABASE_ID="652cd5c26b83e104191f" //database id
+VITE_APPWRITE_COLLECTION_ID="652cd61048893c7a5e07" //database has multiple collect and article collections id is that.chage who can change in collections.Add attributes in articles collections
+VITE_APPWRITE_BUCKET_ID="652cd7b790599b930e10" //storage. update permission in the bucket
+
+#we'll export the appwrite value key value in conf file
+
+#vendor and lock
+
+#creating a class
+
+*auth is also a services.
+*Creating another services like config.
